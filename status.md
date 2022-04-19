@@ -2,28 +2,31 @@
 
 #### Your name
 
-TODO
+Peilin Li
 
 #### Your section leader's name
 
-TODO
+Peilin Li
 
 #### Project title
 
-TODO
+Malphite(League of Legends Discord bot)
 
 ***
 
 Short answers for the below questions suffice. If you want to alter your plan for your project (and obtain approval for the same), be sure to email your section leader directly!
 
 #### What have you done for your project so far?
-
-TODO
+Made a bot application
+Imported Hikari 
+Bot is online in discord
+Have baisc greeting commands
 
 #### What have you not done for your project yet?
 
-TODO
+Write the commands for the champions
 
 #### What problems, if any, have you encountered?
 
-TODO
+Running into errors in VSC and fixed it by switching operater
+Not being able to turn the bot online.
