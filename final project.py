@@ -36,7 +36,7 @@ def get_rank_armor(tier):
         return CHALLENGER
 
 
-lol_watcher = LolWatcher('RGAPI-effb4644-83dc-478f-95a3-31717f71accc')
+lol_watcher = LolWatcher('')
 NA = 'NA1'
 
 client = commands.Bot(command_prefix = '!')
@@ -97,4 +97,4 @@ async def opgg(ctx, *, summonerName):
         
     await ctx.send(embed=embed)
 
-client.run('OTY1MTI0MTYyMTQ4NTI4MTkw.Ylun6w.fMgammTD7BtwFMfbOM8ayDkBIXY')
+client.run('')
