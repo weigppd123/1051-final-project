@@ -15,7 +15,7 @@ GRANDMASTER =   'https://static.wikia.nocookie.net/leagueoflegends/images/f/fc/S
 CHALLENGER =    'https://static.wikia.nocookie.net/leagueoflegends/images/0/02/Season_2022_-_Challenger.png/revision/latest/scale-to-width-down/1000?cb=20220105214312'
 
 
-def get_rank_armor(tier):
+def getrank(tier):
     if(tier == 'IRON'):
         return IRON
     elif(tier == 'BRONZE'):
@@ -73,7 +73,7 @@ async def opgg(ctx, *, summonerName):
         color=discord.Color.blue()
     )
     embed.set_author(name="OP.GG", icon_url="https://pbs.twimg.com/profile_images/1258584949596119040/JJMKHIAg_400x400.jpg")
-    embed.set_thumbnail(url=get_rank_armor(tier))
+    embed.set_thumbnail(url=getrank(tier))
 
  
     match_list = lol_watcher.match.matchlist_by_puuid("americas", puuid, count=5, queue=420)
